@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Control</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Carro a control remoto</h1>
+
+        <button id="changebutton">Cambiar a botones</button>
+
+        <div id="control-panel" class="controles">
+            <button id="avanzar">Avanzar</button>
+
+            <div class="row">
+
+                <button id="izquierda">Izquierda</button>
+                <button id="derecha">Derecha</button>
+
+            </div>
+
+            <button id="retroceder">Retroceder</button>
+        </div>
+
+        <div id="joystick-panel" class="joystick"></div>
+    </div>
+
+    <script src="./joy.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
